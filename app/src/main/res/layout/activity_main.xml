@@ -63,6 +63,17 @@
             android:layout_marginBottom="16dp"
             >
         </EditText>
+        
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:id="@+id/buttonLogin"
+            android:backgroundTint="@color/black"
+            android:text="Entrar"
+            android:textColor="#ffffff"
+            >
+
+        </Button>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
