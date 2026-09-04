@@ -13,6 +13,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center_horizontal"
+        android:background="@drawable/kkkk"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,8 +44,9 @@
         </TextView>
 
         <EditText
-            android:layout_width="200dp"
+            android:layout_width="280dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/rouded_edittext"
             android:id="@+id/inputName"
             android:hint="Digite seu nome!"
             android:inputType="textPersonName"
@@ -54,8 +56,9 @@
         </EditText>
 
         <EditText
-            android:layout_width="200dp"
+            android:layout_width="280dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/rouded_edittext"
             android:id="@+id/inputPassword"
             android:hint="Digite sua senha!"
             android:inputType="textPassword"
@@ -71,9 +74,16 @@
             android:backgroundTint="@color/black"
             android:text="Entrar"
             android:textColor="#ffffff"
-            >
+            android:layout_marginBottom="16dp"
+                >
 
         </Button>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="180dp"
+            android:src=""
+            android:layout_marginTop="16dp"></ImageView>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
